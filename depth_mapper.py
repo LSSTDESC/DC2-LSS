@@ -2,7 +2,6 @@ import GCRCatalogs
 import numpy as np
 import healsparse as hsp
 import healpy as hp
-import matplotlib.pyplot as plt
 from GCR import GCRQuery
 
 def depth_map(ra, dec, mags, nsideSparse, field_corners):
