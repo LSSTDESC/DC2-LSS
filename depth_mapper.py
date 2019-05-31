@@ -14,7 +14,6 @@ def depth_map_meanSNRrange(ra, dec, mags, snr, snrthreshold, nsideSparse):
     
     map_out = np.zeros(len(pix_uni)) + hp.UNSEEN
     map_var_out = np.zeros(len(pix_uni)) + hp.UNSEEN
-    map_nobj = np.zeros(len(pix_uni)) + hp.UNSEEN
     
     # For each healpix pixel    
     for ind, pix in enumerate(pix_uni):
